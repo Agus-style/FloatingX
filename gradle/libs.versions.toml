@@ -1,8 +1,8 @@
 [versions]
 minSdk = "21"
 jvmTarget = "17"
-targetSdk = "34"
-compileSdk = "34"
+targetSdk = "36"
+compileSdk = "36"
 kotlin = "2.1.10"
 compose-bom = "2025.08.00"
 vanniketch-maven-publish = "0.34.0"
@@ -10,7 +10,7 @@ vanniketch-maven-publish = "0.34.0"
 appcompat = "1.7.1"
 codelocatorCore = "2.0.4"
 constraintlayout = "2.2.1"
-androidGradlePlugin = "8.1.4"
+androidGradlePlugin = "8.6.0"
 leakcanaryAndroid = "2.14"
 lifecycleRuntimeKtx = "2.6.2"
 material = "1.12.0"
@@ -48,4 +48,3 @@ compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "
 android-lirary = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
